@@ -1164,8 +1164,8 @@ declare global {
 }
 
 // IMPORTANT: do not change the property name or the assignment expression.
-// This line will be used in regexes to search for LitElement usage.
+// This line will be used in regexes to search for ReactiveElement usage.
 // TODO(justinfagnani): inject version number at build time
-(window['reactiveElementVersions'] || (window['reactiveElementVersions'] = [])).push(
-  '1.0.0-pre.1'
-);
+(
+  window['reactiveElementVersions'] || (window['reactiveElementVersions'] = [])
+).push('1.0.0-pre.1');
